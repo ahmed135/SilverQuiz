@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	min-width: 480px;
+}
+
+body {
+	color: #00205b;
+	background: #E9E9E9;
+	background: repeating-linear-gradient(
+	45deg, #E9E9E9, #E9E9E9 150px, #ffffff 150px, #ffffff 300px
+	);
+	font-size: 24px;
+}
+#wrap {
+	min-height: 100%;
+}
+
+#header {
+	background: #00205b;
+}
+
+#header .logo {
+	padding: 10px 0;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 20px;
+}
+
+#footer {
+	background: #00205b;
+	height: 20px;
+	clear: both;
+	margin-top: -20px;
+	color: #FFFFFF;
+}
+
+.sgred {
+	color: #C8102E;
+}
+.right {
+	float: right;
+}
+
+.content-box {
+	margin: 20px 0 20px;
+	padding: 25px 20px 15px;
+	border: 1px solid #cccccc;
+	background-color: #f5f5f5;
+	border-radius: 3px;
+}
+
+.btn-spf {
+	display: block;
+	margin: auto;
+	color: #ffffff;
+	background: #00205b;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.btn-spf:hover {
+	color: #00205b;
+	background: #ffffff;
+}
+
+.btn-default, .btn-default:hover { 
+	color: #00205b;
+	font-size: 20px;
+}
